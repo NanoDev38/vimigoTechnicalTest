@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\NaNoTek\OneDrive\Kerjaan\VimigoTechnicalTest\flutter_application_1\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\NaNoTek\OneDrive\Kerjaan\VimigoTechnicalTest\flutter_application_1\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\NaNoTek\OneDrive\Kerjaan\VimigoTechnicalTest\flutter_application_1\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\NaNoTek\OneDrive\Kerjaan\VimigoTechnicalTest\flutter_application_1\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\NaNoTek\OneDrive\Kerjaan\VimigoTechnicalTest\flutter_application_1\windows\flutter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{0EE6D5F2-A35F-3986-94DE-52CAF90F2681}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{15D4E100-289A-38C8-85D1-20C0D75023BC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

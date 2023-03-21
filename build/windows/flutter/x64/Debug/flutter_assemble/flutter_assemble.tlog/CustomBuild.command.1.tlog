@@ -1,0 +1,28 @@
+^C:\USERS\NANOTEK\ONEDRIVE\KERJAAN\VIMIGOTECHNICALTEST\FLUTTER_APPLICATION_1\BUILD\WINDOWS\CMAKEFILES\331A448656ECFEB0B753F83F6C54A4D7\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\flutter PROJECT_DIR=C:\Users\NaNoTek\OneDrive\Kerjaan\VimigoTechnicalTest\flutter_application_1 FLUTTER_ROOT=C:\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\NaNoTek\OneDrive\Kerjaan\VimigoTechnicalTest\flutter_application_1\windows\flutter\ephemeral PROJECT_DIR=C:\Users\NaNoTek\OneDrive\Kerjaan\VimigoTechnicalTest\flutter_application_1 FLUTTER_TARGET=C:\Users\NaNoTek\OneDrive\Kerjaan\VimigoTechnicalTest\flutter_application_1\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\NaNoTek\OneDrive\Kerjaan\VimigoTechnicalTest\flutter_application_1\.dart_tool\package_config.json C:/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\NANOTEK\ONEDRIVE\KERJAAN\VIMIGOTECHNICALTEST\FLUTTER_APPLICATION_1\BUILD\WINDOWS\CMAKEFILES\9E7A9BCBC9F0E872C84F9F7D85FAE454\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\NANOTEK\ONEDRIVE\KERJAAN\VIMIGOTECHNICALTEST\FLUTTER_APPLICATION_1\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/NaNoTek/OneDrive/Kerjaan/VimigoTechnicalTest/flutter_application_1/windows -BC:/Users/NaNoTek/OneDrive/Kerjaan/VimigoTechnicalTest/flutter_application_1/build/windows --check-stamp-file C:/Users/NaNoTek/OneDrive/Kerjaan/VimigoTechnicalTest/flutter_application_1/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
