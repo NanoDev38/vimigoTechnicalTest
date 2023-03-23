@@ -1,11 +1,21 @@
+import 'package:flutter/material.dart';
 import 'package:flutter_application/Model/dataUser.dart';
 import 'package:intl/intl.dart';
 import 'package:logger/logger.dart';
 
 var logger = Logger();
 List<dataUser> data = [];
+List<int> hours = [];
 
-void addData(){
+addVerticalSpace(height) {
+  return SizedBox(height: height);
+}
+
+addHorizontalSpace(width) {
+  return SizedBox(width: width);
+}
+
+void addData() {
   data.add(dataUser("bobby", 0152131113, DateTime.parse("2023-03-21 15:00:00")));
   data.add(dataUser("susan", 0161231346, DateTime.parse("2020-07-11 15:39:59")));
   data.add(dataUser("billy", 0158398109, DateTime.parse("2020-08-19 11:10:18")));
@@ -20,8 +30,8 @@ void addData(){
   sortData(); //* function sort data
 }
 
-void sortData(){
-  data.sort((a, b) => a.checkIn.compareTo(b.checkIn));  
+void sortData() {
+  data.sort((a, b) => a.checkIn.compareTo(b.checkIn));
 }
 
 // {
