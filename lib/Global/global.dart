@@ -31,7 +31,7 @@ void addData() {
 }
 
 void sortData() {
-  data.sort((a, b) => a.checkIn.compareTo(b.checkIn));
+  data.sort((a, b) => b.checkIn.compareTo(a.checkIn));
 }
 
 // {
